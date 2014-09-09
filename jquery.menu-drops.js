@@ -40,7 +40,7 @@
     var $menuParents = $menu.find('li:has(ul)').not('li li');
     if (config.mode == 'mouseover') {
       if (hoverIntentIncluded) {
-        $menuParents.hoverIntent(handleMouseOver, handleMouseOut);
+        $menuParents.hoverIntent({over: handleMouseOver, out: handleMouseOut, timeout: 1000});
       }
       else {
         if (console && console.log) {
