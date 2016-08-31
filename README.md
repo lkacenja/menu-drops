@@ -19,4 +19,4 @@ Optionally, send params:
     onOpen: function() {}, // Optional callback when an item is activated
     onClose: function() {}, // Optional callback when an item is deactivated
   });
-</div>
+</code>
