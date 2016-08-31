@@ -1,5 +1,5 @@
 (function ($) {
-  var $screen = $('<div/>').attr('id', 'menu-drops-screen').css({display : 'none', position : 'absolute', top : 0, left : 0, 'z-index' : 100}).height($('body').height()).width($(window).width()).click(handleClickScreen);  ;
+  var $screen = $('<div/>').attr('id', 'menu-drops-screen').css({display : 'none', position : 'absolute', top : 0, left : 0, 'z-index' : 100}).height($('body').height()).width($(window).width()).click(handleClickScreen); 
   var defaults = {
     mode: 'mouseover',
     onConstruct: [],
