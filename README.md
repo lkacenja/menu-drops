@@ -1,17 +1,20 @@
 A simple menu script for creating drop down and click to drop menus with Drupal's default menu block structure. Drop down mode requires <a href="http://cherne.net/brian/resources/jquery.hoverIntent.html">Hover Intent</a> by Brian Cherne. To use simply create a menu block in Drupal's block interface. Then create a simple script in your theme.
 
 To attach:
-<code>
+
+```javascript
   $('#menu').menuDrops();
-</code>
+```
 
 To detach:
-<code>
+
+```javascript
   $('#menu').menuDropsRemove();
-</code>
+```
 
 Optionally, send params:
-<code>
+
+```javascript
   $('#menu').menuDrops({
     mode: 'mouseover', // mouseover or click
     onConstruct: function() {}, // Optional after construct callback
@@ -19,4 +22,4 @@ Optionally, send params:
     onOpen: function() {}, // Optional callback when an item is activated
     onClose: function() {}, // Optional callback when an item is deactivated
   });
-</code>
+```
